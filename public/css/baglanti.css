@@ -1,0 +1,76 @@
+.üst {
+  display: table-cell;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(to right,red,purple,pink);
+  padding-top: 0px;
+}
+
+.alan{
+  display:inline-block;
+  background-color: white;
+  width: 500px;
+  height: 300px;
+  border-radius: 30px;
+  padding: 20px;
+  margin: auto;
+}
+
+.btn_giris {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color:purple;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.btn_giris:hover {background-color: #fc0abb}
+
+.btn_giris:active {
+  background-color: #fc0abb;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+input {
+  height: 35px; width: 300px;
+  padding:8px 20px;
+  border: 1px solid #eee;
+  border-left: 3px solid;
+  border-left-color:#fc0abb;
+  border-radius: 5px;
+  transition: border-color .8s ease-out;
+}
+
+input:focus{
+  outline:none;
+  border: 1px solid #eee;
+  border-left: 3px solid purple;
+}
+
+.tablo{
+background-color: white;
+text-align: center;
+}
+
+.ttasarım{
+text-align: center; 
+background-color: #d7d4d8;
+width: 500px; 
+color: purple;
+margin-left:auto;
+margin-right:auto;
+margin-top: 20px;
+font-size: 20px;
+border-radius: 20px;
+}
+.ttasarım td{
+  color: black;
+}
